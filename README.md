@@ -7,13 +7,13 @@ The Tests runs against APIs mentioned on https://reqres.in/.
 - Clone the repository
 - Open the command prompt and navigate to project path
   >mvn test verify
-- This will run the scenarios and generate the report under target/cucumber-html-reports/*
+- This will run the scenarios and generate the report under target/htmlReports/*
 
 or 
 
 - You can load this project in eclipse.
 - Go to "RunnerTest.java" file and right click and run as Junit Tests.
-- Will generate the reports under target/cucumber-html-reports/*
+- Will generate the reports under target/htmlReports/*
 
 **Steps to Run from Jenkins** :
 - Note : You need to install Cucumber Reports plugin from Manage Jenkins -> Manage Plugins
